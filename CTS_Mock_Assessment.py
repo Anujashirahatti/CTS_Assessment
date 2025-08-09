@@ -61,3 +61,11 @@ for num in nums:
         freq[num]=1
 for key in sorted(freq):
     print(f"{key}: {freq[key]}")
+
+#Take a input as float and interger typecast it 
+f,i=input().split()
+f=float(f)
+i=int(i)
+r=f+i
+print(r)
+
