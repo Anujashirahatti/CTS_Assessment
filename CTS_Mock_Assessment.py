@@ -69,3 +69,32 @@ i=int(i)
 r=f+i
 print(r)
 
+#Take two input values a,b print sum , difference and product of the values
+a=int(input())
+b=int(input())
+sum=a+b
+difference=a-b
+product=a*b
+print(sum)
+print(difference)
+print(product)
+
+# Write a program to print age 
+age=int(input())
+if (age>=18):
+    print("Adult")
+elif (age<18):
+    print("Teen")
+else:
+    print("Either one of this")
+
+#String A and B contain alphabets in upper case only Leftover-string
+A=input().strip()
+B=input().strip() #Strip Can be used as removes leading and trailing whitespace
+result=''.join([char for char in A if char not in B])
+print(result if result else "Empty")
+
+
+
+
+
