@@ -103,6 +103,21 @@ for i in range(n):
 for row in matrix:
     print(*row)
 
+#Matrix input Contain M and N lines each containing M interger - Element of the matrix
+N,M = map(int,input().split())
+for _ in range(n):
+    row= map(int,input().split())
+    print(sum(row))
+
+#Given a string check the digit if it contain only digits
+#The input contain a string S,consisting of Ascii Character
+S=input().strip()
+if S.isdigit():
+    print("Yes")
+else:
+    print("No")
+
+
 
 
 
