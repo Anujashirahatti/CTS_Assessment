@@ -117,6 +117,15 @@ if S.isdigit():
 else:
     print("No")
 
+#Read a list of interger and print their sum 
+#input: First Line number of elements
+#Second Line N space-separted intergers 
+#output: print their Sum
+n=int(input())
+arr=list(map(int,input().split())
+print(sum(arr))
+
+
 
 
 
