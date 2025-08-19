@@ -125,6 +125,25 @@ n=int(input())
 arr=list(map(int,input().split())
 print(sum(arr))
 
+#Area of rectangle
+length=int(input())
+width=int(input())
+a=length*width
+print(a)
+
+#swaping between string for example"ReDSaGe" we have to swap between uppercase to lowecase
+#One Alternatemethod is 
+s=input().strip()
+print(s.swapcase())
+
+#Another Alternate Method is 
+def toggle_case(s):
+    return s.swapcase()
+s=intput().strip()
+print(toggle_case())
+         
+
+
 
 
 
