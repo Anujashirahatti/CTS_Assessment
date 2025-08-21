@@ -141,7 +141,18 @@ def toggle_case(s):
     return s.swapcase()
 s=intput().strip()
 print(toggle_case())
+
+#sum of odd_num in array
+n=int(input())
+arr=list(map(int,input().split()))
+odd_sum=0
+for num in arr:
+    if num%2!=0:
+        odd_sum += num
+
+print(odd_sum)
          
+
 
 
 
