@@ -151,7 +151,23 @@ for num in arr:
         odd_sum += num
 
 print(odd_sum)
+
+
+#Matrix in sparse
+#fromula:Number of zero>total element/2
+N,M=map(int,input().split())
+zero_count=0
+total_elements=N*M
+for _ in range(N):
+    row = list(map(int,input().split()))
+    zero_count += row.count(0)
+if zero_count > total_elements //2:
+    print("Yes)
+else:
+    print("No)
+        
          
+
 
 
 
